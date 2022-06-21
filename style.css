@@ -1,0 +1,101 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+.game-container
+{
+    position: relative;
+    width: 500px;
+    height: 100vh;
+    margin: auto;
+    background: #03a50a66;
+}
+.page1
+{
+    position: relative;
+    top: 30%; 
+    transform: 1s;   
+}
+.page1.active
+{
+    display: none;
+    transition: 1s;
+}
+.page1 h2
+{
+    text-align: center;
+    position: relative;
+    color: black;
+}
+.page1 h2 .fas
+{
+    font-size: 2.5rem;
+    color: yellow;
+}
+.page1 button
+{
+    position: relative;
+    right: -45%;
+    background-color: #fbec01;
+    
+}
+.breakfastBox-1
+{
+    margin: 20px;
+}
+.page2
+{
+    position: relative;
+    top: 20%;
+    height:70vh;
+    background-color: #fbec01;
+    display: none;
+    text-align: center;
+    transition: 1s;
+}
+.page2.active
+{
+    display: block;
+    transition: 1s;
+}
+.page2 h3
+{
+    margin: 1rem;
+    padding-top: 30px;
+}
+.page2 p
+{
+    margin-top: 20px;
+}
+.breakfast,
+.food
+{
+    margin: 1rem;
+    background: #03a50a66;
+    padding: 10px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.results h2
+{
+    margin-top: 10px
+}
+
+.results
+{
+    margin-top: 20px;
+    font-size: 1.17rem;
+    font-weight: bold;
+}
+.juniosChois
+{
+    font-size: 1.17rem;
+    font-weight: bold;
+}
